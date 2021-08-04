@@ -1,3 +1,5 @@
+# randowPokemon
+## desafio de aplicação para consumir uma api de pokemon , afim de trazer um pokemon aleatório e exibir suas informações.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

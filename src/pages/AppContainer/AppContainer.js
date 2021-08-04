@@ -8,6 +8,7 @@ import AppContext from '../../appContexts/Context';
 import { useContext } from 'react';
 import getColor from "../../utils/selectColorType";
 
+
 export function AppContainer() {
   const {executeSearch, isvisible,primaryType,secondaryType}=useContext(AppContext);
   const colorPrimary =  getColor()[0][`${primaryType}`]
@@ -27,7 +28,7 @@ export function AppContainer() {
   
 
   return (
-    <Container theme={gradientColor()}>
+    <Container  theme={gradientColor()}>
       <PokemonLogo margin="50px 0 40px " src="./logo.png" alt="Logo Pokemon" />
       <Button
         onClick={executeSearch}

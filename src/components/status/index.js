@@ -28,22 +28,22 @@ export function StatusPokemon() {
    
      
       
-        console.log( spriteBack)
+      
        
     return (
       isvisible &&
       
         <StatusPokemons>
          <Name color={colorPrimary} fontSize="25px" fontWeight="boldbolder">
-           <p>{name}</p> to skills
+           <span>{name}</span> to skills
           </Name> 
           <div>
-              <p>heigth:  <b>{height} cm</b></p>
+              <span>heigth:  <b>{height} cm</b></span>
               <p>wieight: <b>{weight} kg</b></p>
           </div>
           <div>
-              <p>base experience: <b>{ baseExperience}</b></p>
-              <p>move: <b>{move}</b></p>
+              <span>base experience: <b>{ baseExperience}</b></span>
+              <span>move: <b>{move}</b></span>
           </div>
           {spriteBack === null ?"Imagem não encontrada"
           :
