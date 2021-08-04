@@ -17,9 +17,14 @@ div{
     margin: 10px 0;
     
 }
-div p{
+div span{
     text-transform: uppercase;
     margin:0 10px;
+}
+div:nth-child(4){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (max-width: 468px) {

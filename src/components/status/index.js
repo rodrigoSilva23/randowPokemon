@@ -45,7 +45,11 @@ export function StatusPokemon() {
               <span>base experience: <b>{ baseExperience}</b></span>
               <span>move: <b>{move}</b></span>
           </div>
-          {spriteBack === null ?"Imagem não encontrada"
+          {spriteBack === null ?
+           <div> 
+              <span>pokemon não encontrado!!</span>
+              <Sprite width="150px" height="150px" animation="pulse" src="./pokemonErro.png" alt="pokemon não encontrado"/>
+           </div>
           :
           <Sprite width="170px" height="170px" animation="pulse" src={spriteBack} alt={name}/>
           }

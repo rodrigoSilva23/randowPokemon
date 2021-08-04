@@ -34,7 +34,11 @@ export function PokemonWrapper() {
            {name}
           </Name> 
           
-          { sprite=== null? "imagem não encontrada"
+          { sprite=== null? 
+             <div className="PokemonError"> 
+              <span>pokemon não encontrado!!</span>
+              <Sprite width="150px" height="150px" animation="pulse" src="./pokemonErro.png" alt="pokemon não encontrado"/>
+            </div>
           :
           <Sprite width="200px" height="200px" animation="pulse" src={sprite} alt={name}/>
           }

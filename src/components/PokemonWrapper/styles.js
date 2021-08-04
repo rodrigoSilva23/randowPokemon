@@ -18,6 +18,11 @@ align-items: center;
     align-items: center;
     margin-right: 3px;
 }
+.PokemonError{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 @media (max-width: 468px) {
     
     width: 300px;
