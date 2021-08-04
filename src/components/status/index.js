@@ -39,7 +39,7 @@ export function StatusPokemon() {
           </Name> 
           <div>
               <span>heigth:  <b>{height} cm</b></span>
-              <p>wieight: <b>{weight} kg</b></p>
+              <span>wieight: <b>{weight} kg</b></span>
           </div>
           <div>
               <span>base experience: <b>{ baseExperience}</b></span>
